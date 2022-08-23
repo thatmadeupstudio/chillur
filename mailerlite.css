@@ -86,7 +86,9 @@ transform: rotate(360deg);
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
-  padding: 20px 20px 0 20px;
+  padding: 32px 32px 0 32px;
+  max-width: 512px;
+  margin: 0 auto;
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {
   padding-bottom: 0;
@@ -98,18 +100,18 @@ transform: rotate(360deg);
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
-  color: #000000;
+  color: #1d1b1f;
   font-family: 'Circularstd', sans-serif;
   font-size: 30px;
   font-weight: 400;
-  margin: 0 0 10px 0;
+  margin: 0 0 16px 0;
   text-align: center;
   word-break: break-word;
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
-  color: #000000;
-  font-family: 'Circularstd', sans-serif;
+  color: #1d1b1f;
+  font-family: 'Circularstd book', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -185,21 +187,19 @@ transform: rotate(360deg);
   margin: 0;
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+  height: 54px;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid #7a757f;
+  border-radius: 3.5px;
+  font-size: 16px;
+  letter-spacing: .5px;
   background-color: #ffffff !important;
   color: #333333 !important;
-  border-color: #cccccc;
-  border-radius: 4px !important;
-  border-style: solid !important;
-  border-width: 1px !important;
-  font-family: 'Circularstd', Arial, Helvetica, sans-serif;
-  font-size: 14px !important;
-  height: auto;
-  line-height: 21px !important;
-  margin-bottom: 0;
+  font-family: 'Circularstd book', Arial, Helvetica, sans-serif;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-  padding: 10px 10px !important;
   width: 100% !important;
   box-sizing: border-box !important;
   max-width: 100% !important;
@@ -611,8 +611,6 @@ transform: rotate(360deg);
 }
 
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p {
-  color: #000000;
-  font-family: 'Circularstd', sans-serif;
   font-size: 12px;
   line-height: 22px;
   margin: 0 0 10px 0;
