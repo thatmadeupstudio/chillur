@@ -106,6 +106,7 @@ transform: rotate(360deg);
   line-height: 44px;
   margin: 0 0 16px 0;
   text-align: center;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 767px) {
@@ -209,7 +210,7 @@ transform: rotate(360deg);
   max-width: 100% !important;
 }
 
-#mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:hover {
+#mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:focus {
   border-color: #7627e9;
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,
@@ -615,15 +616,13 @@ transform: rotate(360deg);
   word-break: break-word;
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p {
-  color: #000000;
-  font-family: 'Circularstd', Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-family: 'Circularstd book', Arial, Helvetica, sans-serif;
+  font-size: 14px;
   line-height: 18px;
   margin: 0 0 10px 0;
 }
 
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p {
-  font-size: 12px;
   text-align: center;
 }
 
