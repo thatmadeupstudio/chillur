@@ -729,12 +729,21 @@ transform: rotate(360deg);
 
 @media screen and (max-width: 480px) {
   .ml-form-recaptcha {
-    width: 220px!important
+    width: 232px!important
   }
   .g-recaptcha {
     transform: scale(0.78);
     -webkit-transform: scale(0.78);
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+  #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 0 0 8px 0;
   }
 }
