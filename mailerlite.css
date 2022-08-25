@@ -212,6 +212,7 @@ transform: rotate(360deg);
 
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:focus {
   border-color: #7627e9;
+  outline: 0 !important;
 }
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,
 #mlb2-1212478.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder { color: #333333; }
